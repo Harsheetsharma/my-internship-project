@@ -6,7 +6,9 @@ import { useState } from 'react';
 
 export function Locations() {
     const [follow, setFollow] = useState("Follow");
-
+    const [follow1, setfollow1] = useState("Follow");
+    const [follow2, setfollow2] = useState("Follow");
+    const [follow3, setfollow3] = useState("Follow");
     return (
         <div className="position-absolute " style={{ left: "53%", width: "20%", height: "62%", top: "67%" }}>
             <div className="d-flex justify-content-between align-items-center mt-3 w-full">
@@ -55,7 +57,9 @@ export function Locations() {
                         </div>
                     </div>
                     <div>
-                        <button className='border bg-white rounded'>{follow}</button>
+                        <button onClick={() => {
+                            setfollow1("Following");
+                        }} className='border bg-white rounded'>{follow1}</button>
                     </div>
 
                 </div>
@@ -69,7 +73,9 @@ export function Locations() {
                         </div>
                     </div>
                     <div>
-                        <button className='border bg-white rounded'>{follow}</button>
+                        <button onClick={() => {
+                            setfollow2("Following");
+                        }} className='border bg-white rounded'>{follow2}</button>
                     </div>
 
                 </div>
@@ -83,7 +89,9 @@ export function Locations() {
                         </div>
                     </div>
                     <div>
-                        <button className='border bg-white rounded'>{follow}</button>
+                        <button onClick={() => {
+                            setfollow3("Following");
+                        }} className='border bg-white rounded'>{follow3}</button>
                     </div>
 
                 </div>
