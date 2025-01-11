@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -25,3 +26,6 @@ width: 133px;
 height: 36px;
 left: 966px;
 top: 552px;
+=======
+# my-internship-project
+>>>>>>> 5d2472972e70bf42cd77538bb81ff9021c7665a4
